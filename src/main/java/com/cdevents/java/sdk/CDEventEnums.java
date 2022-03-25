@@ -1,3 +1,20 @@
+/*
+ * Copyright 2022-Present The cdevents Authors
+ * <p>
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
 package com.cdevents.java.sdk;
 
 	public enum CDEventEnums {
@@ -15,9 +32,9 @@ package com.cdevents.java.sdk;
 		BranchCreatedEventV1("cd.repository.branch.created.v1"), 
 		BranchDeletedEventV1("cd.repository.branch.deleted.v1"),
 		// Repository change Events
-		ChangeCreatedEventV1("cd.repository.change.created.v1"), 
-		ChangeUpdatedEventV1("cd.repository.change.updated.v1"), 
-		ChangeReviewedEventV1("cd.repository.change.reviewed.v1"), 
+		ChangeCreatedEventV1("cd.repository.change.created.v1"),
+		ChangeUpdatedEventV1("cd.repository.change.updated.v1"),
+		ChangeReviewedEventV1("cd.repository.change.reviewed.v1"),
 		ChangeMergedEventV1("cd.repository.change.merged.v1"), 
 		ChangeAbandonedEventV1("cd.repository.change.abandoned.v1"),
 		// Build Events
